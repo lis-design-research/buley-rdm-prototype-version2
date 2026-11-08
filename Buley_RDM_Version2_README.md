@@ -47,9 +47,9 @@ The modified file is still a **five-tab prototype**. The three new items are res
 
 - Preserves proposed content and navigation changes for team review.
 - Allows us to complete or reconsider the glossary, sample DMP, and feedback features separately.
-- Serves as a possible source of revisions for the **December 7 final design**, subject to testing, feasibility, and agreement.
+- Serves as a source of revisions for the **December 7 final design**, subject to testing, feasibility, and agreement.
 
-## Decisions before the final design
+## Decisions before the final design due Dec 7
 
 We need to decide whether each proposed feature solves an identified user need, complete any content and functionality we retain, check links and terminology, and test whether the revisions improve navigation without adding unnecessary complexity. Our December report should distinguish changes supported by actual feedback from ideas explored during development.
 
