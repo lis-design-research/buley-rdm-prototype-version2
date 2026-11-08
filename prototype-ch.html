@@ -1,0 +1,184 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Research Data Management | LibGuide Prototype</title><style>body{margin:0;background:#f5f7fa;color:#24394c;font:16px/1.6 Arial}header{background:#163956;color:white;padding:25px 6%}header h1{margin:5px 0}main{max-width:1100px;margin:auto;padding:20px}.note{background:#fff2d2;padding:12px;border-left:4px solid #a7761b}nav{display:flex;flex-wrap:wrap;gap:6px;margin:20px 0}button{cursor:pointer;border:0;background:#dce8f1;color:#173c59;padding:12px;border-radius:5px;font-weight:bold}button.active,.primary{background:#155e85;color:white}.page{display:none}.page.active{display:block}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}.card{background:white;border:1px solid #d4dfe7;border-radius:7px;padding:20px;margin-bottom:14px}.card h3{margin-top:0;color:#164366}a{color:#075e92}select{width:100%;padding:12px;margin:8px 0 15px}label{font-weight:bold}footer{border-top:1px solid #cdd9e3;padding:20px 0;margin-top:30px;font-size:13px}.result{background:#e8f4f1;padding:20px;margin-top:12px;border-left:4px solid #2b7464}li{margin-bottom:8px}@media(max-width:600px){header{padding:20px}main{padding:14px}}</style><header><small>HILTON C. BULEY LIBRARY | SOUTHERN CONNECTICUT STATE UNIVERSITY</small><h1>Research Data Management</h1>
+	<div>Find guidance, resources, and the next step for your research data.</div>
+</header><main>
+	<p class="note">
+		<strong>Course prototype only.</strong> 
+	This is not an official Buley Library website or an operational service. Institutional responsibilities and contacts shown as possibilities require verification.</p>
+	<p>A guide for faculty, graduate researchers, research assistants, and research-support professionals.</p>
+		<nav aria-label="Guide navigation">
+			<button class="active" onclick="show('home',this)">Start Here</button>
+			<button onclick="show('dmp',this)">DMP & Funder Requirements</button>
+			<button onclick="show('data',this)">Manage Your Data</button>
+			<button onclick="show('help',this)">Find Support</button>
+			<button onclick="show('tools',this)">Tools & Resources
+		</button>
+	</nav>
+	<section class="page active" id="home">
+				<h2>What do you need help with?</h2>
+				<div class="grid">
+			<article class="card">
+				<h3> Meeting Funder Requirements </h3>
+				<p>Identify requirements, plan your data, and find planning tools.</p>
+				<button class="primary" onclick="show('dmp')">Start planning</button>
+			</article>
+			<article class="card">
+				<h3>Organizing or storing data</h3>
+				<p>Explore documentation, storage, access, and security considerations.</p>
+				<button class="primary" onclick="show('data')">Managing data</button>
+			</article>
+			<article class="card">
+				<h3>Sharing or preserving data</h3>
+				<p>Consider repository options, sharing restrictions, and handovers.</p>
+				<button class="primary" onclick="show('data')">Sharing guidance</button>
+			</article><article class="card">
+				<h3>Finding assistance</h3>
+				<p>Identify what type of expertise might address your question.</p>
+				<button class="primary" onclick="show('help')">Find support</button>
+			</article>
+		</div>
+		<h2>Two routes to support</h2>
+		<div class="grid">
+			<div class="card">
+				<h3>I want to complete a task myself</h3>
+				<p>Use guides, templates, examples, and external tools.</p>
+				<button onclick="show('tools')">Browse resources</button>
+			</div>
+			<div class="card">
+				<h3>I need specialist assistance</h3>
+				<p>Use the support finder to identify a potential service pathway and prepare a request.</p>
+				<button onclick="show('help')">Find expertise</button>
+			</div>
+		</div>
+	</section>
+	<section class="page" id="dmp">
+		<h2>Data Management Plans and funder requirements</h2>
+		<p>A DMP explains how data will be organized, documented, protected, shared, and preserved.</p>
+		<p>Writing a plan and implementing it are different tasks.</p>
+		<p>
+			<strong>*Pro Tip: review funder specifications as you prepare your proposal to capture requirements and cost of compliance early!</strong>
+		</p>
+		<div class="card">
+			<h3>Prepare your plan</h3>
+			<ol>
+				<li>Identify the funder and review the current funding announcement.</li>
+				<li>Describe data types, formats, and documentation needs.</li>
+				<li>Plan storage, backup, access, security, and privacy.</li>
+				<li>Consider sharing restrictions, repository options, and preservation.</li>
+				<li>Draft your DMP and review it as the project develops.</li>
+			</ol>
+			<p>
+				<a href="https://dmptool.org/" target="_blank">Open DMPTool</a> | 
+				<a href="https://dmponline.dcc.ac.uk/" target="_blank">Open DMPonline</a> | 
+				<a href="https://sharing.nih.gov/" target="_blank">NIH data sharing guidance</a>
+			</p>
+			<button class="primary" onclick="show('help')">I need assistance</button>
+		</div>
+		<p class="note">Always confirm the specific funder's requirements. This prototype does not represent institutional DMP review or approval.</p>
+	</section>
+	<section class="page" id="data"><h2>Research data lifecycle</h2>
+		<p>Use the stage relevant to your work. These activities overlap and may require different expertise.</p>
+		<div class="grid">
+			<div class="card"><h3>1. Plan</h3>
+				<p>Research requirements, responsibilities, DMP, and data-sharing expectations.</p>
+			</div>
+			<div class="card"><h3>2. Collect and store</h3>
+				<p>Appropriate storage, backup, permissions, and sensitive data.</p>
+			</div>
+			<div class="card"><h3>3. Organize and document</h3>
+				<p>File naming, version control, README files, and metadata.</p>
+			</div>
+			<div class="card"><h3>4. Analyze and maintain</h3>
+				<p>Record methods, transformations, software, and changes.</p>
+			</div>
+			<div class="card"><h3>5. Share and preserve</h3>
+				<p>Consent, licensing, repositories, retention, and reuse.</p>
+			</div>
+			<div class="card"><h3>6. Close out and hand over</h3>
+				<p>Document decisions, locations, access, and responsibilities when personnel change.</p>
+			</div>
+		</div>
+		<button class="primary" onclick="show('help')">Find support for my stage</button>
+	</section>
+	<section class="page" id="help">
+		<h2>Find the right support</h2>
+		<p>Choose your need to see a proposed pathway. This is a functional demonstration of service navigation, not a live request system.</p>
+		<div class="card">
+			<label for="need">What is your question about?</label>
+			<select id="need">
+				<option value="dmp">DMP or funder requirements</option>
+				<option value="storage">Storage, privacy, or security</option>
+				<option value="metadata">Documentation, file organization, or metadata</option>
+				<option value="share">Sharing, repositories, or preservation</option>
+				<option value="handover">Project handover or closeout</option>
+			</select>
+			<label for="mode">What kind of help do you want?</label>
+			<select id="mode">
+				<option value="self">Self-service guidance</option>
+				<option value="person">Specialist assistance</option>
+			</select>
+			<button class="primary" onclick="route()">Show my next steps</button>
+			<div class="result" id="result" aria-live="polite">Select your task and click “Show my next steps.”</div>
+		</div>
+		<h3>What to prepare when asking for help</h3>
+		<ul>
+			<li>Your research stage and specific question</li>
+			<li>Funder and deadline, if relevant</li>
+			<li>General data type and applicable restrictions</li>
+			<li>Guidance or tools you have already consulted</li>
+		</ul><p class="note">No contact form is connected. Do not enter confidential research information. Proposed institutional referrals require verification of responsibilities, capacity, and follow-up procedures.
+		</p>
+	</section>
+	<section class="page" id="tools">
+		<h2>Tools and resources</h2>
+		<p>**Links to external sources do not imply that SCSU subscribes to or formally endorses a particular tool.</p>
+		<div class="grid">
+			<div class="card">
+				<h3>DMPTool</h3>
+				<p>Guided DMP preparation.</p>
+				<a href="https://dmptool.org/" target="_blank">Open DMPTool</a>
+			</div>
+			<div class="card"><h3>Digital Curation Centre
+			</h3>
+			<p>Research data management planning guidance.</p>
+			<a href="https://www.dcc.ac.uk/" target="_blank">Visit DCC</a>
+		</div><div class="card">
+			<h3>NIH Data Sharing</h3>
+			<p>Requirements and guidance for NIH-supported research.</p>
+			<a href="https://sharing.nih.gov/" target="_blank">Visit NIH</a>
+		</div>
+		<div class="card">
+			<h3>re3data</h3>
+			<p>Discover research data repositories.</p>
+			<a href="https://www.re3data.org/" target="_blank">Search repositories</a>
+		</div>
+		<div class="card">
+			<h3>Glossary</h3>
+			<p>terminology and definitions</p>
+			<a href="https://www.re3data.org/" target="_blank">[placeholder]</a>
+		</div>
+		<div class="card">
+			<h3>Sample DMP's</h3>
+			<p>See discipline specific plans</p>
+			<a href="https://www.re3data.org/" target="_blank">[placeholder]</a>
+		</div>
+		<div class="card">
+			<h3>Feedback</h3>
+			<p>Provide feedback or suggestions about this site</p>
+			<a href="https://www.re3data.org/" target="_blank">suggestionbox@school.edu</a>
+		</div>		
+	</div>
+	<h2>Try a scenario</h2>
+	<div class="card">
+		<p><strong>You are preparing a grant application that requires a DMP.
+		</strong> You need guidance about funder requirements, storage, and eventual data sharing.
+	</p>
+	<ol>
+		<li>Open the DMP page and identify a planning tool.</li>
+		<li>Open Find Support and select DMP assistance.</li>
+		<li>Change the topic to storage and then data sharing.</li>
+		<li>Check whether you can identify the next action and where institutional verification is needed.</li>
+	</ol>
+</div>
+</section>
+<footer>
+	<strong>Group 4 | LIS 2024 | Case Study 4</strong><p>Independent LibGuides-style prototype for peer testing. Not an official Springshare LibGuide or an implemented Buley service. It does not collect or send information. Proposed referrals are illustrative until confirmed by SCSU.</p></footer></main><script>function show(id,btn){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b===btn||(!btn&&b.textContent===({home:'Start Here',dmp:'DMP & Funder Requirements',data:'Manage Your Data',help:'Find Support',tools:'Tools & Resources'}[id]))));window.scrollTo(0,0)}function route(){const n=document.getElementById('need').value,m=document.getElementById('mode').value;const x={dmp:['Review your funder’s current requirements and use DMPTool to structure a draft.','Potential expertise: research administration / Sponsored Programs and library research support.'],storage:['Identify data sensitivity and consult institutional rules before selecting storage.','Potential expertise: university IT and applicable privacy/compliance specialists.'],metadata:['Create a project README, consistent file names, and documentation conventions.','Potential expertise: disciplinary researchers and library research-support specialists.'],share:['Review sharing restrictions and compare appropriate disciplinary repositories.','Potential expertise: library research support and repository specialists.'],handover:['Document data locations, file conventions, access, decisions, and successor responsibilities.','Potential expertise: research team leads and relevant research-support staff.']}[n];document.getElementById('result').innerHTML='<strong>Suggested next step</strong><p>'+ (m==='self'?x[0]:x[1])+'</p><p><strong>Then:</strong> Verify the responsible SCSU service, its available capacity, and the appropriate contact or referral process. This prototype does not submit a request.</p>'}</script></html>
